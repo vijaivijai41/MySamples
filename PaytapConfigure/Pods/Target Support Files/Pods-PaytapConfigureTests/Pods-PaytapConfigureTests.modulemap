@@ -1,0 +1,6 @@
+framework module Pods_PaytapConfigureTests {
+  umbrella header "Pods-PaytapConfigureTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

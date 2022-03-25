@@ -1,0 +1,18 @@
+{
+    "Simulator Target Bundle": "Fundsindia.FireBaseConfigure",
+    "aps" : {
+        "alert" : {
+            "title" : "Fundsindia",
+            "body" : "Your monthly sip for enable today do you want to continue to proceed."
+            
+        },
+        "mutable-content" : "1",
+        "category" : "Redeem",
+        "redirection-url": "https://example.com/path/to/page?name=ferret&color=purple"
+    },
+      "mediaType": "video",
+      "attachment-url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+}
+
+
+

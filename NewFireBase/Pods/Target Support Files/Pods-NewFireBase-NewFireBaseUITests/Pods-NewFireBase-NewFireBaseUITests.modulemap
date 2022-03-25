@@ -1,0 +1,6 @@
+framework module Pods_NewFireBase_NewFireBaseUITests {
+  umbrella header "Pods-NewFireBase-NewFireBaseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

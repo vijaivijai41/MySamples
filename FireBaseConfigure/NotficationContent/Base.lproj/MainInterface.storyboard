@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" userLabel="Notification View Controller" customClass="NotificationViewController" customModule="NotficationContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z3X-fd-hlH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Vz-6g-gda">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45882353186607361" green="0.74901962280273438" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="z3X-fd-hlH" firstAttribute="top" secondItem="S3S-Oj-5AN" secondAttribute="top" id="6kt-iq-N0E"/>
+                            <constraint firstItem="2BE-c3-nQJ" firstAttribute="trailing" secondItem="8Vz-6g-gda" secondAttribute="trailing" id="Xyu-nv-bRm"/>
+                            <constraint firstItem="z3X-fd-hlH" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="Ytf-ib-IOn"/>
+                            <constraint firstItem="2BE-c3-nQJ" firstAttribute="trailing" secondItem="z3X-fd-hlH" secondAttribute="trailing" id="i6f-8f-nF8"/>
+                            <constraint firstItem="8Vz-6g-gda" firstAttribute="top" secondItem="S3S-Oj-5AN" secondAttribute="top" id="kaY-73-Mtv"/>
+                            <constraint firstItem="8Vz-6g-gda" firstAttribute="leading" secondItem="z3X-fd-hlH" secondAttribute="leading" id="mmP-EH-mRp"/>
+                            <constraint firstAttribute="bottom" secondItem="8Vz-6g-gda" secondAttribute="bottom" id="wjk-f1-Gpe"/>
+                            <constraint firstAttribute="bottom" secondItem="z3X-fd-hlH" secondAttribute="bottom" id="z4h-0e-eaP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2BE-c3-nQJ"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="37"/>
+                    <connections>
+                        <outlet property="contentImage" destination="z3X-fd-hlH" id="DK4-fS-uub"/>
+                        <outlet property="videoView" destination="8Vz-6g-gda" id="KKe-ba-DAe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="54.575892857142854"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,978 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068E5963381B58D7D8CD321462F567ED /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E057170ECA65E2F05A5B595252784 /* Compression.swift */; };
+		1627E6FA0453D6DB472BA444F1D32AE7 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F7922C44A3645750BD18CCCF671B0 /* SSLClientCertificate.swift */; };
+		1BB546D11C471EB0097EEC3A75DD446B /* Pods-ImageUpload-ImageUploadUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC864F3E4FC918F5467250E0D4A1A9D0 /* Pods-ImageUpload-ImageUploadUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		294D61E8A195B6A1F6AEDCF0F73599A5 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB5DEA2CF4E44263A62924A53A069E /* Starscream-dummy.m */; };
+		661E821B67874458EE632805413517CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7BBCE2DBB3183E9B4D81311B013AC935 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		80C31D8BED5DA96BF0D0C80F0D2BB498 /* Pods-ImageUploadTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A36D288AA56D5D040A65285DEC9A4F6 /* Pods-ImageUploadTests-dummy.m */; };
+		8B3350D96B15B975184C8EE0819F9623 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F921BA6434A655F9C82F0F81BE47A /* SSLSecurity.swift */; };
+		8EEE549D3E7B0F250F194FF72F1B9333 /* Pods-ImageUploadTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA8FCF09A575E1505BD0854962DD0E4 /* Pods-ImageUploadTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D67F9A7630A34944B6EAAD47F785E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B470E6DEB1CF948472C753B008013199 /* Pods-ImageUpload-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B1853862B98FFA7ABF58E0142F0985 /* Pods-ImageUpload-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4A6283FDFA04E3A7B6FD0C13B6FEF32 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7A2315DC555AEF64DA8D50B51DA7F1 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02D9FEB295BDA1359D2F52C80F8E75A /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9AA0D25BD7BD2C495D776FC8B846DC /* WebSocket.swift */; };
+		D6AF01575E911235C9691B90DCC02F34 /* Pods-ImageUpload-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5964C0EE473295B48A594C22F1934E79 /* Pods-ImageUpload-dummy.m */; };
+		EFF33CADD1CF4450FB2AC81E818DF9C1 /* Pods-ImageUpload-ImageUploadUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7AB2C9B85E0CDB3747BA254EA6639C /* Pods-ImageUpload-ImageUploadUITests-dummy.m */; };
+		F0F68E2AC17D7EA104EB70EBDC6F698F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2468D6573C2062B2EE35EECCC86B2892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		42970F8EC03FC8DCFAADC86DED0A6AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		BF6F056F44BA6FB705152B4C1E548359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADBFC47F004142032F481E534D96E5F;
+			remoteInfo = "Pods-ImageUpload";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FB5DEA2CF4E44263A62924A53A069E /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		0CDA16E80D5E50E381206186E523B126 /* Pods-ImageUpload-ImageUploadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageUpload-ImageUploadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		195818231CD9312A66D9F5230CE70CD5 /* Pods-ImageUpload-ImageUploadUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageUpload-ImageUploadUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B2014E0BE4A19227E86C7A814DE9F5B /* Pods_ImageUploadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageUploadTests.framework; path = "Pods-ImageUploadTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		209701A1E7873E756AF420D1DAB7ABA9 /* Pods-ImageUploadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageUploadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A36D288AA56D5D040A65285DEC9A4F6 /* Pods-ImageUploadTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageUploadTests-dummy.m"; sourceTree = "<group>"; };
+		2C4069435484CED034A53F462C81EE06 /* Pods-ImageUpload-ImageUploadUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageUpload-ImageUploadUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2EF130DB1D020533A3D8DDE0CB985BD3 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B9AA0D25BD7BD2C495D776FC8B846DC /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
+		3CCC9ACBCB1C4855253688D9E10E6F6C /* Pods-ImageUploadTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageUploadTests-Info.plist"; sourceTree = "<group>"; };
+		3DCEA6169B33E34F1E6E7128F65DC025 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		44416AFAEEE8D217775926C4CC5FC070 /* Pods-ImageUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageUpload.release.xcconfig"; sourceTree = "<group>"; };
+		44E219F4030CE498CF0D43505F1973F7 /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		47F2D920E8F8A97CE28E8A5A00F18C4C /* Pods-ImageUploadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageUploadTests.release.xcconfig"; sourceTree = "<group>"; };
+		47F4CF6723D96F28ED7CB004298E0FB6 /* Pods-ImageUpload-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageUpload-Info.plist"; sourceTree = "<group>"; };
+		49C8BBB205795B0E64AEF2BE088C6626 /* Pods-ImageUpload.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageUpload.modulemap"; sourceTree = "<group>"; };
+		4C38B8C0BA6D1E10FA77ED5FDB550ABB /* Pods_ImageUpload_ImageUploadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageUpload_ImageUploadUITests.framework; path = "Pods-ImageUpload-ImageUploadUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5964C0EE473295B48A594C22F1934E79 /* Pods-ImageUpload-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageUpload-dummy.m"; sourceTree = "<group>"; };
+		5CA8FCF09A575E1505BD0854962DD0E4 /* Pods-ImageUploadTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageUploadTests-umbrella.h"; sourceTree = "<group>"; };
+		64D5E391E11E3D9A03B0ACF80CFBA3B2 /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+		7F7A2315DC555AEF64DA8D50B51DA7F1 /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		8656028AF52A2048AAF0F50074C4844D /* Pods-ImageUpload-ImageUploadUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageUpload-ImageUploadUITests.modulemap"; sourceTree = "<group>"; };
+		88F62CDB678BBC7BBABF5B8EF6C2F17B /* Pods-ImageUploadTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageUploadTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9717388EC61C9CAB1715B3FB8514157A /* Pods-ImageUpload-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageUpload-frameworks.sh"; sourceTree = "<group>"; };
+		9B18021FAD6765FFB5DC230B3C74F165 /* Pods-ImageUploadTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageUploadTests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9CBC392E5BBF6DB65BC75272F62214 /* Pods-ImageUpload-ImageUploadUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageUpload-ImageUploadUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4ECDD6C08EABCA6B31524DF0B24D1A9 /* Pods-ImageUpload-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageUpload-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9903E49F092BB9964F5B40553C957DB /* Pods-ImageUpload-ImageUploadUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageUpload-ImageUploadUITests-Info.plist"; sourceTree = "<group>"; };
+		BA2E057170ECA65E2F05A5B595252784 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Starscream/Compression.swift; sourceTree = "<group>"; };
+		C3F4F525C5D999B8F7A0962038DBD7E6 /* Pods-ImageUpload-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageUpload-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D59F921BA6434A655F9C82F0F81BE47A /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Sources/Starscream/SSLSecurity.swift; sourceTree = "<group>"; };
+		D610505E76EBC1173FCE5BB427840A45 /* Pods-ImageUpload-ImageUploadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageUpload-ImageUploadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEBCE284492B5C04938F5F57B19C1CF0 /* Pods-ImageUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		E48F7922C44A3645750BD18CCCF671B0 /* SSLClientCertificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLClientCertificate.swift; path = Sources/Starscream/SSLClientCertificate.swift; sourceTree = "<group>"; };
+		E7B1853862B98FFA7ABF58E0142F0985 /* Pods-ImageUpload-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageUpload-umbrella.h"; sourceTree = "<group>"; };
+		EC864F3E4FC918F5467250E0D4A1A9D0 /* Pods-ImageUpload-ImageUploadUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageUpload-ImageUploadUITests-umbrella.h"; sourceTree = "<group>"; };
+		F591AD0E3EAB7B6CD1330A7B165D3F53 /* Pods-ImageUploadTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageUploadTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDA61FA3CFBEC7399F14509AC279823F /* Pods_ImageUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageUpload.framework; path = "Pods-ImageUpload.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7AB2C9B85E0CDB3747BA254EA6639C /* Pods-ImageUpload-ImageUploadUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageUpload-ImageUploadUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09206235EB9393FD6D895453F2569AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D67F9A7630A34944B6EAAD47F785E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A950427EAB7DB74A78BF24B051DF068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBCE2DBB3183E9B4D81311B013AC935 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49798F87F57172F803D3C5829809D8AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F68E2AC17D7EA104EB70EBDC6F698F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EE4BF4A0100CDA5DC8A6108C071C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661E821B67874458EE632805413517CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039A4957D243A9AA0F66F9E0BD02D196 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8ACE7C9963DCFE23A68900AA8CC0A1F /* Pods-ImageUpload */,
+				331B62D105BF0F2BED732C864545CC88 /* Pods-ImageUpload-ImageUploadUITests */,
+				4042E09F78A9CB5AE2AD23AE3EE81A32 /* Pods-ImageUploadTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		331B62D105BF0F2BED732C864545CC88 /* Pods-ImageUpload-ImageUploadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8656028AF52A2048AAF0F50074C4844D /* Pods-ImageUpload-ImageUploadUITests.modulemap */,
+				9E9CBC392E5BBF6DB65BC75272F62214 /* Pods-ImageUpload-ImageUploadUITests-acknowledgements.markdown */,
+				195818231CD9312A66D9F5230CE70CD5 /* Pods-ImageUpload-ImageUploadUITests-acknowledgements.plist */,
+				FF7AB2C9B85E0CDB3747BA254EA6639C /* Pods-ImageUpload-ImageUploadUITests-dummy.m */,
+				2C4069435484CED034A53F462C81EE06 /* Pods-ImageUpload-ImageUploadUITests-frameworks.sh */,
+				A9903E49F092BB9964F5B40553C957DB /* Pods-ImageUpload-ImageUploadUITests-Info.plist */,
+				EC864F3E4FC918F5467250E0D4A1A9D0 /* Pods-ImageUpload-ImageUploadUITests-umbrella.h */,
+				D610505E76EBC1173FCE5BB427840A45 /* Pods-ImageUpload-ImageUploadUITests.debug.xcconfig */,
+				0CDA16E80D5E50E381206186E523B126 /* Pods-ImageUpload-ImageUploadUITests.release.xcconfig */,
+			);
+			name = "Pods-ImageUpload-ImageUploadUITests";
+			path = "Target Support Files/Pods-ImageUpload-ImageUploadUITests";
+			sourceTree = "<group>";
+		};
+		4042E09F78A9CB5AE2AD23AE3EE81A32 /* Pods-ImageUploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B18021FAD6765FFB5DC230B3C74F165 /* Pods-ImageUploadTests.modulemap */,
+				F591AD0E3EAB7B6CD1330A7B165D3F53 /* Pods-ImageUploadTests-acknowledgements.markdown */,
+				88F62CDB678BBC7BBABF5B8EF6C2F17B /* Pods-ImageUploadTests-acknowledgements.plist */,
+				2A36D288AA56D5D040A65285DEC9A4F6 /* Pods-ImageUploadTests-dummy.m */,
+				3CCC9ACBCB1C4855253688D9E10E6F6C /* Pods-ImageUploadTests-Info.plist */,
+				5CA8FCF09A575E1505BD0854962DD0E4 /* Pods-ImageUploadTests-umbrella.h */,
+				209701A1E7873E756AF420D1DAB7ABA9 /* Pods-ImageUploadTests.debug.xcconfig */,
+				47F2D920E8F8A97CE28E8A5A00F18C4C /* Pods-ImageUploadTests.release.xcconfig */,
+			);
+			name = "Pods-ImageUploadTests";
+			path = "Target Support Files/Pods-ImageUploadTests";
+			sourceTree = "<group>";
+		};
+		74B354FEE42AB825E96690DF7F109CC3 /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E057170ECA65E2F05A5B595252784 /* Compression.swift */,
+				E48F7922C44A3645750BD18CCCF671B0 /* SSLClientCertificate.swift */,
+				D59F921BA6434A655F9C82F0F81BE47A /* SSLSecurity.swift */,
+				3B9AA0D25BD7BD2C495D776FC8B846DC /* WebSocket.swift */,
+				E1C262BC966EEAEBD1297175B34EF373 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		97C5288770E1953BDB40F8F908E40D46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74B354FEE42AB825E96690DF7F109CC3 /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8ACE7C9963DCFE23A68900AA8CC0A1F /* Pods-ImageUpload */ = {
+			isa = PBXGroup;
+			children = (
+				49C8BBB205795B0E64AEF2BE088C6626 /* Pods-ImageUpload.modulemap */,
+				C3F4F525C5D999B8F7A0962038DBD7E6 /* Pods-ImageUpload-acknowledgements.markdown */,
+				A4ECDD6C08EABCA6B31524DF0B24D1A9 /* Pods-ImageUpload-acknowledgements.plist */,
+				5964C0EE473295B48A594C22F1934E79 /* Pods-ImageUpload-dummy.m */,
+				9717388EC61C9CAB1715B3FB8514157A /* Pods-ImageUpload-frameworks.sh */,
+				47F4CF6723D96F28ED7CB004298E0FB6 /* Pods-ImageUpload-Info.plist */,
+				E7B1853862B98FFA7ABF58E0142F0985 /* Pods-ImageUpload-umbrella.h */,
+				DEBCE284492B5C04938F5F57B19C1CF0 /* Pods-ImageUpload.debug.xcconfig */,
+				44416AFAEEE8D217775926C4CC5FC070 /* Pods-ImageUpload.release.xcconfig */,
+			);
+			name = "Pods-ImageUpload";
+			path = "Target Support Files/Pods-ImageUpload";
+			sourceTree = "<group>";
+		};
+		AAFF2717CC83158010B0449D7ED16848 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA61FA3CFBEC7399F14509AC279823F /* Pods_ImageUpload.framework */,
+				4C38B8C0BA6D1E10FA77ED5FDB550ABB /* Pods_ImageUpload_ImageUploadUITests.framework */,
+				1B2014E0BE4A19227E86C7A814DE9F5B /* Pods_ImageUploadTests.framework */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				97C5288770E1953BDB40F8F908E40D46 /* Pods */,
+				AAFF2717CC83158010B0449D7ED16848 /* Products */,
+				039A4957D243A9AA0F66F9E0BD02D196 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1C262BC966EEAEBD1297175B34EF373 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EF130DB1D020533A3D8DDE0CB985BD3 /* Starscream.modulemap */,
+				64D5E391E11E3D9A03B0ACF80CFBA3B2 /* Starscream.xcconfig */,
+				01FB5DEA2CF4E44263A62924A53A069E /* Starscream-dummy.m */,
+				44E219F4030CE498CF0D43505F1973F7 /* Starscream-Info.plist */,
+				3DCEA6169B33E34F1E6E7128F65DC025 /* Starscream-prefix.pch */,
+				7F7A2315DC555AEF64DA8D50B51DA7F1 /* Starscream-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D0CF5ABFED111591266CE97B4949C06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B470E6DEB1CF948472C753B008013199 /* Pods-ImageUpload-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F53D74B6108BF3EF3539D2EF7898278 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEE549D3E7B0F250F194FF72F1B9333 /* Pods-ImageUploadTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD37AF9B9F78580D159AE761C456202 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A6283FDFA04E3A7B6FD0C13B6FEF32 /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C668F3D34CC07E69E7CD6BC0747ED282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB546D11C471EB0097EEC3A75DD446B /* Pods-ImageUpload-ImageUploadUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0121D9ECD522BBCDB5EDA2F358D4EE6D /* Pods-ImageUpload-ImageUploadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9BDAAE63DC15F1B55CF20F13866AF5 /* Build configuration list for PBXNativeTarget "Pods-ImageUpload-ImageUploadUITests" */;
+			buildPhases = (
+				C668F3D34CC07E69E7CD6BC0747ED282 /* Headers */,
+				B39AE698AFB2A5A6D4A489557055BBD9 /* Sources */,
+				A7EE4BF4A0100CDA5DC8A6108C071C83 /* Frameworks */,
+				5A138A26A74B3A45FAF739A5AABD5430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B71614F8E242F2ABDA9E15B5CB96DB27 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImageUpload-ImageUploadUITests";
+			productName = "Pods-ImageUpload-ImageUploadUITests";
+			productReference = 4C38B8C0BA6D1E10FA77ED5FDB550ABB /* Pods_ImageUpload_ImageUploadUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1ADBFC47F004142032F481E534D96E5F /* Pods-ImageUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97E34617EC1CCD8491FCCE778AF761F /* Build configuration list for PBXNativeTarget "Pods-ImageUpload" */;
+			buildPhases = (
+				2D0CF5ABFED111591266CE97B4949C06 /* Headers */,
+				433150A12177AC41A80D32C6C3C77ABB /* Sources */,
+				49798F87F57172F803D3C5829809D8AB /* Frameworks */,
+				9886CDFE866A7719EB82FA491E15E1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF66B00CC592A95ADFA5035D866E145C /* PBXTargetDependency */,
+			);
+			name = "Pods-ImageUpload";
+			productName = "Pods-ImageUpload";
+			productReference = FDA61FA3CFBEC7399F14509AC279823F /* Pods_ImageUpload.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5C15C705AB67930733A7E237A0A33A /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				ABD37AF9B9F78580D159AE761C456202 /* Headers */,
+				621EE447A1C117BDCD418F5DE070FD3C /* Sources */,
+				09206235EB9393FD6D895453F2569AF9 /* Frameworks */,
+				BE174469BA3F43D1B5CE60520CA93EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C411CA39EC3E43905AD81492C7B29B32 /* Pods-ImageUploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E423F29915E49AFB57C2646C9202476D /* Build configuration list for PBXNativeTarget "Pods-ImageUploadTests" */;
+			buildPhases = (
+				9F53D74B6108BF3EF3539D2EF7898278 /* Headers */,
+				EFF5D30D700985011022EE3B6184E119 /* Sources */,
+				2A950427EAB7DB74A78BF24B051DF068 /* Frameworks */,
+				F530DE2C8B1CBB3B43DF2E2ADA82BF55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23ACE1C2AB8D87E451E4A4FE91EE0E50 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImageUploadTests";
+			productName = "Pods-ImageUploadTests";
+			productReference = 1B2014E0BE4A19227E86C7A814DE9F5B /* Pods_ImageUploadTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AAFF2717CC83158010B0449D7ED16848 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ADBFC47F004142032F481E534D96E5F /* Pods-ImageUpload */,
+				0121D9ECD522BBCDB5EDA2F358D4EE6D /* Pods-ImageUpload-ImageUploadUITests */,
+				C411CA39EC3E43905AD81492C7B29B32 /* Pods-ImageUploadTests */,
+				9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A138A26A74B3A45FAF739A5AABD5430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9886CDFE866A7719EB82FA491E15E1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE174469BA3F43D1B5CE60520CA93EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F530DE2C8B1CBB3B43DF2E2ADA82BF55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		433150A12177AC41A80D32C6C3C77ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AF01575E911235C9691B90DCC02F34 /* Pods-ImageUpload-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621EE447A1C117BDCD418F5DE070FD3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068E5963381B58D7D8CD321462F567ED /* Compression.swift in Sources */,
+				1627E6FA0453D6DB472BA444F1D32AE7 /* SSLClientCertificate.swift in Sources */,
+				8B3350D96B15B975184C8EE0819F9623 /* SSLSecurity.swift in Sources */,
+				294D61E8A195B6A1F6AEDCF0F73599A5 /* Starscream-dummy.m in Sources */,
+				C02D9FEB295BDA1359D2F52C80F8E75A /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39AE698AFB2A5A6D4A489557055BBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF33CADD1CF4450FB2AC81E818DF9C1 /* Pods-ImageUpload-ImageUploadUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF5D30D700985011022EE3B6184E119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C31D8BED5DA96BF0D0C80F0D2BB498 /* Pods-ImageUploadTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23ACE1C2AB8D87E451E4A4FE91EE0E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ImageUpload";
+			target = 1ADBFC47F004142032F481E534D96E5F /* Pods-ImageUpload */;
+			targetProxy = BF6F056F44BA6FB705152B4C1E548359 /* PBXContainerItemProxy */;
+		};
+		B71614F8E242F2ABDA9E15B5CB96DB27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 2468D6573C2062B2EE35EECCC86B2892 /* PBXContainerItemProxy */;
+		};
+		DF66B00CC592A95ADFA5035D866E145C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 42970F8EC03FC8DCFAADC86DED0A6AF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		26AF30B97BFB6B16440FCCA355059659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D610505E76EBC1173FCE5BB427840A45 /* Pods-ImageUpload-ImageUploadUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageUpload-ImageUploadUITests/Pods-ImageUpload-ImageUploadUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageUpload-ImageUploadUITests/Pods-ImageUpload-ImageUploadUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B9A0B4952D45054597F2CD17B61C40A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CDA16E80D5E50E381206186E523B126 /* Pods-ImageUpload-ImageUploadUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageUpload-ImageUploadUITests/Pods-ImageUpload-ImageUploadUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageUpload-ImageUploadUITests/Pods-ImageUpload-ImageUploadUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		690BF15575F21E7CBD05D5A169B258CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEBCE284492B5C04938F5F57B19C1CF0 /* Pods-ImageUpload.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageUpload/Pods-ImageUpload-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageUpload/Pods-ImageUpload.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73968A14EF0365E654FA09AC14885BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D5E391E11E3D9A03B0ACF80CFBA3B2 /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C0668AB3AEA46F2D33B4DD4322F041D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D5E391E11E3D9A03B0ACF80CFBA3B2 /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		900E164DD9389711F252E6262FA399D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209701A1E7873E756AF420D1DAB7ABA9 /* Pods-ImageUploadTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageUploadTests/Pods-ImageUploadTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageUploadTests/Pods-ImageUploadTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E26789AE1082E3191FF4119B0C9689A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44416AFAEEE8D217775926C4CC5FC070 /* Pods-ImageUpload.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageUpload/Pods-ImageUpload-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageUpload/Pods-ImageUpload.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA2A0FA5693612E743B555F6C71A305B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F2D920E8F8A97CE28E8A5A00F18C4C /* Pods-ImageUploadTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageUploadTests/Pods-ImageUploadTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageUploadTests/Pods-ImageUploadTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC9BDAAE63DC15F1B55CF20F13866AF5 /* Build configuration list for PBXNativeTarget "Pods-ImageUpload-ImageUploadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AF30B97BFB6B16440FCCA355059659 /* Debug */,
+				4B9A0B4952D45054597F2CD17B61C40A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97E34617EC1CCD8491FCCE778AF761F /* Build configuration list for PBXNativeTarget "Pods-ImageUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690BF15575F21E7CBD05D5A169B258CA /* Debug */,
+				E26789AE1082E3191FF4119B0C9689A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E423F29915E49AFB57C2646C9202476D /* Build configuration list for PBXNativeTarget "Pods-ImageUploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900E164DD9389711F252E6262FA399D8 /* Debug */,
+				EA2A0FA5693612E743B555F6C71A305B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5C15C705AB67930733A7E237A0A33A /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73968A14EF0365E654FA09AC14885BA9 /* Debug */,
+				7C0668AB3AEA46F2D33B4DD4322F041D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,17 @@
+{
+    "Simulator Target Bundle": "Fundsindia.WidgetSample",
+    "aps" : {
+        "alert" : {
+            "title" : "Fundsindia",
+            "body" : "Your monthly sip for enable today do you want to continue to proceed."
+            
+        },
+        "mutable-content" : "1",
+        "category" : "Redeem"
+    },
+      "mediaType": "video",
+      "urlImageString": "https://images.financialexpress.com/2019/11/1-366.jpg"
+}
+
+
+

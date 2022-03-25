@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CF44C92C-0175-42F6-AD70-4AF0CC8FD540"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF58A1E8-0E8B-4F53-9E5A-6D1CC0859D90"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireBaseConfigure/NotificationConfigure/MyNotificationConfigure.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "application(_:didReceiveRemoteNotification:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "655B660C-88B2-43EE-82F6-A83904AFB39A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireBaseConfigure/NotificationConfigure/MyNotificationConfigure.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "userNotificationCenter(_:didReceive:withCompletionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "655B660C-88B2-43EE-82F6-A83904AFB39A - 1cfd62717167a5a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireBaseConfigure.MyNotificationConfigure.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "FireBaseConfigure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vijay/Documents/MyUse/FireBaseConfigure/FireBaseConfigure/NotificationConfigure/MyNotificationConfigure.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "373">
+               </Location>
+               <Location
+                  uuid = "655B660C-88B2-43EE-82F6-A83904AFB39A - 1cfd62717167a5a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireBaseConfigure.MyNotificationConfigure.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "FireBaseConfigure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vijay/Documents/MyUse/FireBaseConfigure/FireBaseConfigure/NotificationConfigure/MyNotificationConfigure.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "418">
+               </Location>
+               <Location
+                  uuid = "655B660C-88B2-43EE-82F6-A83904AFB39A - 1cfd62717167a5a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireBaseConfigure.MyNotificationConfigure.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "FireBaseConfigure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vijay/Documents/MyUse/FireBaseConfigure/FireBaseConfigure/NotificationConfigure/MyNotificationConfigure.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "890">
+               </Location>
+               <Location
+                  uuid = "655B660C-88B2-43EE-82F6-A83904AFB39A - 1cfd62717167a5a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireBaseConfigure.MyNotificationConfigure.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "FireBaseConfigure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vijay/Documents/MyUse/FireBaseConfigure/FireBaseConfigure/NotificationConfigure/MyNotificationConfigure.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "1345">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46BDA4D6-1752-4F22-90E9-4264BA61767B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FireBaseConfigure/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "myNotification(configure:didRedirectionScene:actionIdentifier:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
